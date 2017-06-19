@@ -104,7 +104,9 @@
 										<span>
 											<strong>DELIVER ORDER:</strong>
 										</span>
-										<span t-field="o.name" />
+										<t t-if="o.picking_ids">
+										<span t-field="o.picking_ids[0].name" />
+										</t>
 									</div>
 									<div class="col-xs-5 ">
 										<span>
@@ -230,7 +232,7 @@
 				</t>
 			</t>
 		</template>
-		<report string="CEBIS Report" id="cebis_so_report"
+		<report string="ALBARÁN" id="cebis_so_report"
 			model="sale.order" report_type="qweb-pdf"
 			name="cebis_sale_order_report.report_sale_order" file="cebis_sale_order_report.report_sale_order" />
 	</data>
