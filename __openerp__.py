@@ -12,6 +12,7 @@
         "sale",
     ],
     "data": [
+        'views/sale_view.xml',
         'report/cebis_sale_order_report.xml',
     ],
     "installable": True
