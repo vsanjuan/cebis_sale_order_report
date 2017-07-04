@@ -237,8 +237,6 @@
 		</template>
 		<report string="ALBARÁN" id="cebis_so_report"
 			model="sale.order" report_type="qweb-pdf"
-			name="cebis_sale_order_report.report_sale_order" file="cebis_sale_order_report.report_sale_order" 
-            attachment_use="True"
-			attachment="(object.picking_ids  and (object.picking_ids[0].name or '').replace('/','')+'.pdf')"/>
+			name="cebis_sale_order_report.report_sale_order" file="cebis_sale_order_report.report_sale_order" />
 	</data>
 </openerp>
