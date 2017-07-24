@@ -39,10 +39,11 @@ class CebisReportController(ReportController):
 
                 attach_name =  reportname
                 if docids:
+                    so_ids = [int(i) for i in docids.split(',')]
                     if reportname.find('cebis_sale_order_report.report_sale_order') != -1:
                         cr, uid, context = request.cr, request.uid, request.context
-                        so = request.registry['sale.order'].browse(cr, uid, [int(x) for x in docids], context=context)[0]
-                        attach_name = so.picking_ids and so.picking_ids[0].name or so.name
+                        so = request.registry['sale.order'].browse(cr, uid, so_ids, context=context)[0]
+                        attach_name = so.name
                     # Generic report:
                     response = self.report_routes(reportname, docids=docids, converter='pdf')
                 else:
