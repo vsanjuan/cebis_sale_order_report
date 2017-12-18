@@ -18,7 +18,7 @@ msgstr ""
 #. module: cebis_sale_order_report
 #: view:website:cebis_sale_order_report.report_sale_order
 msgid "% DISCOUNT"
-msgstr "% DISCOUNT"
+msgstr "% DESCUENTO"
 
 #. module: cebis_sale_order_report
 #: model:ir.actions.report.xml,name:cebis_sale_order_report.cebis_so_report
@@ -28,52 +28,52 @@ msgstr "ALBARÁN"
 #. module: cebis_sale_order_report
 #: view:website:cebis_sale_order_report.report_sale_order
 msgid "AMOUNT"
-msgstr "AMOUNT"
+msgstr "CANTIDAD"
 
 #. module: cebis_sale_order_report
 #: view:website:cebis_sale_order_report.report_sale_order
 msgid "CODE"
-msgstr "CODE"
+msgstr "CODIGO"
 
 #. module: cebis_sale_order_report
 #: view:website:cebis_sale_order_report.report_sale_order
 msgid "COMMENTS:"
-msgstr "COMMENTS:"
+msgstr "DESCRIPCION:"
 
 #. module: cebis_sale_order_report
 #: view:website:cebis_sale_order_report.report_sale_order
 msgid "Customer's Reference:"
-msgstr "Customer's Reference:"
+msgstr "Nº DE PEDIDO"
 
 #. module: cebis_sale_order_report
 #: view:website:cebis_sale_order_report.report_sale_order
 msgid "DATE:"
-msgstr "DATE:"
+msgstr "FECHA:"
 
 #. module: cebis_sale_order_report
 #: view:website:cebis_sale_order_report.report_sale_order
 msgid "DELIVER ORDER:"
-msgstr "DELIVER ORDER:"
+msgstr "ALBARAN:"
 
 #. module: cebis_sale_order_report
 #: view:website:cebis_sale_order_report.report_sale_order
 msgid "DELIVERY ADDRESS"
-msgstr "DELIVERY ADDRESS"
+msgstr "DIRECCION ENTREGA"
 
 #. module: cebis_sale_order_report
 #: view:website:cebis_sale_order_report.report_sale_order
 msgid "DESCRIPTION"
-msgstr "DESCRIPTION"
+msgstr "DESCRIPCION"
 
 #. module: cebis_sale_order_report
 #: view:website:cebis_sale_order_report.report_sale_order
 msgid "PRICE"
-msgstr "PRICE"
+msgstr "PRECIO"
 
 #. module: cebis_sale_order_report
 #: view:website:cebis_sale_order_report.report_sale_order
 msgid "Signature:"
-msgstr "Signature:"
+msgstr "Firma:"
 
 #. module: cebis_sale_order_report
 #: view:website:cebis_sale_order_report.report_sale_order
